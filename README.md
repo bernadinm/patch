@@ -6,7 +6,7 @@ Log into all master nodes one by one and run this script.
 **Note:** This will restart the `dcos-adminrouter` daemon
 
 ```bash
-curl -O https://github.com/bernadinm/patch/blob/master/adminrouter-patch.sh
+curl -O https://raw.githubusercontent.com/bernadinm/patch/master/adminrouter-patch.sh
 chmod +x adminrouter-patch.sh
 sudo bash adminrouter-patch.sh enable
 ```
