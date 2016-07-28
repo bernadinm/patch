@@ -1,5 +1,5 @@
---- nginx.conf
-+++ nginx.conf.mod
+--- nginx.conf.bad
++++ nginx.conf
 @@ -245,7 +245,7 @@
  
          location ~ ^/service/(?<serviceid>[0-9a-zA-Z-.]+)$ {
