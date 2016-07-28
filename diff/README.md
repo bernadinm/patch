@@ -4,8 +4,6 @@ This patch fixes the /service and /services endpoint that enforces port 80. This
 ## Instructions
 Log into all master nodes one by one and run this script.
 
-**Note:** This will restart the `dcos-adminrouter` daemon
-
 ```bash
 cd $(sudo find /opt/mesosphere/ -name nginx.conf)
 ```
@@ -22,10 +20,14 @@ Run this command to apply the change
 
 ```bash
 bash patch_installer.sh enable
+sudo systemctl restart dcos-adminrouter
 ```
 
 You can also disable the patch by performing 
 
 ```bash
 bash patch_installer.sh disable
+sudo systemctl restart dcos-adminrouter
 ```
+
+
