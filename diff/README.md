@@ -16,6 +16,11 @@ This script must be run in the same directory as the nginx.conf. The patch file 
 curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/patch_installer.sh 
 curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/mesosphere-adminrouter.patch
 chmod +x patch_installer.sh
+```
+
+Run this command to apply the change
+
+```bash
 bash patch_installer.sh enable
 ```
 
@@ -23,6 +28,4 @@ You can also disable the patch by performing
 
 ```bash
 bash patch_installer.sh disable
-```
-
 ```
