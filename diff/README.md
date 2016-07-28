@@ -11,22 +11,22 @@ cd /opt/mesosphere/packages/adminrouter--91cfc73424d311a8cadbd2bed62362ec216717b
 This script must be run in the same directory as the nginx.conf. The patch file must be downloaded to this directory as well.
 
 ```bash
-curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/patch_installer.sh 
-curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/mesosphere-adminrouter.patch
-chmod +x patch_installer.sh
+sudo curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/patch_installer.sh 
+sudo curl -O https://raw.githubusercontent.com/bernadinm/patch/master/diff/mesosphere-adminrouter.patch
+sudo chmod +x patch_installer.sh
 ```
 
 Run this command to apply the change
 
 ```bash
-bash patch_installer.sh enable
+sudo bash patch_installer.sh enable
 sudo systemctl restart dcos-adminrouter
 ```
 
 You can also disable the patch by performing 
 
 ```bash
-bash patch_installer.sh disable
+sudo bash patch_installer.sh disable
 sudo systemctl restart dcos-adminrouter
 ```
 
