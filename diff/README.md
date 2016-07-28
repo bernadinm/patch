@@ -19,14 +19,10 @@ chmod +x patch_installer.sh
 bash patch_installer.sh enable
 ```
 
-You can also see that status of the patch by performing 
+You can also disable the patch by performing 
 
 ```bash
-sudo bash adminrouter-patch.sh status
+bash patch_installer.sh disable
 ```
 
-When you want to disable it for any reason run
-
-```bash
-sudo bash adminrouter-patch.sh disable
 ```
