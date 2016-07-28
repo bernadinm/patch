@@ -5,7 +5,7 @@ This patch fixes the /service and /services endpoint that enforces port 80. This
 Log into all master nodes one by one and run this script.
 
 ```bash
-cd $(sudo find /opt/mesosphere/ -name nginx.conf)
+cd /opt/mesosphere/packages/adminrouter--91cfc73424d311a8cadbd2bed62362ec216717b7/nginx/conf
 ```
 
 This script must be run in the same directory as the nginx.conf. The patch file must be downloaded to this directory as well.
