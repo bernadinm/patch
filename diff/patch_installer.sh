@@ -1,5 +1,5 @@
 #!/bin/bash
-# Verizon Adminrouter Patch for DC/OS 1.7.2  
+# Adminrouter Patch for DC/OS 1.7.2  
 #
 
 sha=91cfc73424d311a8cadbd2bed62362ec216717b7
