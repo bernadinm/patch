@@ -2,7 +2,7 @@
 # Adminrouter Patch for DC/OS 1.7.2  
 #
 
-sha=c17c90b400dbdafea8a973028cab9bab5db457c1
+sha=91cfc73424d311a8cadbd2bed62362ec216717b7
 options_flag=""
 execute() {
 	if (( $(echo $PWD | grep -c $sha) ));
