@@ -1,4 +1,4 @@
-# DC/OS 1.7 Adminrouter Patch
+# DC/OS 1.7.2 Adminrouter Patch
 This patch fixes the /service and /services endpoint that enforces port 80. This patch enables passthough any ports and host that a proxy leverages. See https://github.com/dcos/adminrouter/pull/14 for more details.
 
 ## Instructions
