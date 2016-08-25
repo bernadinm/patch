@@ -1,5 +1,5 @@
 #!/bin/bash
-# Adminrouter Patch for DC/OS 1.7.2  
+# Adminrouter Patch for DC/OS 1.7-open
 #
 
 sha=8573334f21b0bfd08ae664239c1ca10dfbc0a284
